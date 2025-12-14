@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-    <channel>
-        <title>تطبيق إتصالات - تحديثات Android</title>
-        <description>إصدارات تطبيق مجموعة اتصالات</description>
-        <language>ar</language>
-        
-        <!-- إصدار حالي -->
-        <item>
-            <title>الإصدار 1.2.0</title>
-            <description>
-                <![CDATA[
-                <ul>
-                    <li>تحسينات في أداء التطبيق</li>
-                    <li>إصلاح مشاكل في الشاشات</li>
-                    <li>إضافة ميزات جديدة للدفع</li>
-                </ul>
-                ]]>
-            </description>
-            <pubDate>Tue, 15 Apr 2025 12:00:00 +0300</pubDate>
-            <enclosure 
-                url="https://play.google.com/store/apps/details?id=com.etisalatgroup.app" 
-                sparkle:version="1.2.0" 
-                sparkle:os="android" 
-                sparkle:minimumSystemVersion="21"
-            />
-        </item>
-    </channel>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Debt Now App - Appcast</title>
+
+    <item>
+      <title>Version 1.15.0</title>
+
+      <description>
+        ⚠️ هذا التحديث إجباري للاستمرار في استخدام التطبيق.
+        الرجاء التحديث إلى أحدث إصدار.
+      </description>
+
+      <pubDate>Sun, 30 Dec 2018 12:00:00 +0000</pubDate>
+
+      <!-- Forced Update -->
+      <sparkle:version>1.15.0</sparkle:version>
+      <sparkle:minimumSystemVersion>1.15.0</sparkle:minimumSystemVersion>
+      <sparkle:criticalUpdate>true</sparkle:criticalUpdate>
+
+      <enclosure
+        url="https://play.google.com/store/apps/details?id=com.pioneers.etisalatgroub"
+        sparkle:os="android" />
+    </item>
+
+  </channel>
 </rss>
